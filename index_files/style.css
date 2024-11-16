@@ -1,0 +1,193 @@
+
+
+:root{
+    --dark:rgb(72, 102, 146);
+    --yelow:rgb(217, 255, 0);
+}
+.main-btn{
+    background-color: red;
+    color: var(--yelow);
+}
+.main-btn:hover{
+    
+
+  background-color: red;
+    color: goldenrod;
+}
+.navbar{
+    background-color: var(--dark);
+}
+.navlink{
+    text-decoration: none;
+    color: aqua;
+}
+.search{
+    border-left: 1px solid green ;
+   
+}
+.nav-item .navlink{
+    color: black;
+}
+
+.nav-item .navlink:hover{
+    color: white;
+}
+.landing{
+    margin-top:72px ;
+    background-color: var(--dark);
+    min-height: calc(100vh - 72px);
+}
+
+.main-title p::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 110%;
+    width: 20%;
+    height: 1px;
+    background-color: aqua;
+
+}
+
+/* str feat */
+.feature .i-con-holder{
+height: 200px;
+}
+
+.feature .i-con-holder svg{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.feature .i-con-holder .number{
+
+    font-size: 12rem;
+    z-index: -1;
+   color: rgb(163, 159, 153);
+
+}
+.feature .i-con-holder .icon{
+z-index: 1;
+color: aqua;
+    
+}
+.feature .feat h4{
+    color: yellow;
+}
+
+
+
+/* end feat */
+/* str oour-work */
+.our-work{
+    background-color: rgb(226, 219, 219);
+}
+
+.our-work ul .active{
+    background-color: red;
+    color: var(--yelow);
+
+
+}
+.our-work ul li{
+padding: 0.5rem 1rem;
+cursor: pointer;
+
+}
+.our-work ul li:not(.active):hover{
+    color: red;
+
+}
+.our-work .box{
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.our-work .box::before{
+    content: attr(data-work);
+    position: absolute;
+    background-color: rgba(169, 194, 169,0.8 );
+
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+    font-size: 1.5rem;
+    transform: translatey(calc(-100% - 5px));
+
+
+}
+.our-work .box:hover::before{
+    transform: translatey(0) ;
+
+
+}
+
+
+/* end oour-work */
+/* stuff */
+.stuff .description{
+    max-width: 400px;
+}
+
+/*end stuff */
+/* str team */
+.team{
+    background-color: wheat;
+}
+.team h2{
+    color: yellow;
+
+}
+.team .box h4{
+    background-color: green;
+}
+
+/* end team */
+/* project */
+.project{
+    background-color: var(--dark);
+}
+/*end project */
+.card-img-top{
+    width: 200px;
+    margin: 2px auto;
+}
+/* subscrip */
+.subscrip{
+    background-color: yellow;
+}
+
+.subscrip input{
+    border: none;
+    border-bottom: 1px solid white;
+}
+.subscrip input:focus{
+
+    outline: none;
+
+}
+.subscrip ::placeholder{
+color: white;
+}
+
+.subscrip input[type="submit"]{
+    background-color: var(--dark);
+}
+/*endsubscrip  */
+/* ///////////////////////////////// */
+/* footer */
+
+.footer{
+    background-color: var(--dark);
+}
+
+
+
+
+/*end footer */

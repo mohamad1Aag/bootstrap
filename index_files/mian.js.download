@@ -1,0 +1,29 @@
+// // alert("test");
+// // console.log("test");
+
+
+// // let promptmsg=confirm("are yo surre?");
+// // console.log(promptmsg);
+// // if(promptmsg===true){
+// //     console.log("item delet");
+
+// // }else{
+// //     console.log("item not delet");
+
+// // }
+// ////////////////////////////////////////////////////////////
+// // setTimeout(saymsg ,3000)
+
+// // function saymsg(useer){
+// //     console.log(`iam msg ${useer}`);
+// // }
+
+// ///////////////////////
+// let div=document.querySelector("div");
+// function countdowun(){
+//     div.innerHTML -=1;
+//     if(div.innerHTML==="0"){
+//         clearInterval(counter);
+//     }
+// }
+// let counter = setInterval(countdowun,1000);
